@@ -64,7 +64,20 @@
 # print(multiply(2,3,4,5))
 
 #----------------------(xxargs)
-def save_user(**user):
-    print(user)
+# def save_user(**user):
+#     print(user)
 
-save_user(id=1, name="admin")
+# save_user(id=1, name="admin")
+
+
+#------debugging
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
+
+
+print("start")
+print(multiply(1, 2, 3))
+print("finish")
