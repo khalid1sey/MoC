@@ -7,7 +7,8 @@ def fizzbuzz(input):
         return "fizz"
     if input % 5 == 0:
         return "buzz"
+    return input
     
 
 
-print(fizzbuzz(5))
+print(fizzbuzz(4))
