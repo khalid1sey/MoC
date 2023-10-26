@@ -1,12 +1,13 @@
 
 
-def fizzbuzz(x):
-    if x % 3 == 0 :
-        "fizz"
-    elif x % 5 == 0:
-        "buzz"
-    elif x % 5 == 0 & x % 3 == 0:
-        "fizzbuzz"
+def fizzbuzz(input):
+    if (input % 5 == 0) and (input % 3 == 0):
+        return "fizzbuzz"
+    if input % 3 == 0 :
+        return "fizz"
+    if input % 5 == 0:
+        return "buzz"
+    
 
 
-print(fizzbuzz(50))
+print(fizzbuzz(5))
