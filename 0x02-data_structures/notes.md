@@ -127,8 +127,10 @@ items = [
 def sort_item(item):
     return item[1]
 
+#lambda function
 items.sort(key=lambda item:item[1]) #this is lambda function
 print(items)
 
 sum = lambda a, b: a + b
 print(sum(40,20))
+func name = lambda arguments: expression
